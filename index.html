@@ -72,30 +72,35 @@
         <p class="invite-text">با حضور پرمهرتان در آغاز زندگی مشترک عزیزانمان شادی‌بخش محفل ما باشید.
         </p>
       </section>
-
+      
       <section class="family-names-block reveal" data-reveal="3">
         <p class="invite-text family-names">عابدیان ، قطبی</p>
       </section>
+<!-- ============================================================
+     Schedule — 2-column grid (details | date & year)
+     ============================================================ -->
+<div class="schedule reveal" data-reveal="4">
+  
+  <!-- Column 1: Time Details (عقد و شام) -->
+  <div class="schedule__col schedule__col--details">
+    <div class="schedule__detail">
+      <span class="schedule__label">عقد</span>
+      <span class="schedule__time">۱۷ - ۱۹</span>
+    </div>
+    <div class="schedule__detail">
+      <span class="schedule__label">شام</span>
+      <span class="schedule__time">۱۹ - ۲۳</span>
+    </div>
+  </div>
 
-      <section class="schedule reveal" data-reveal="4" aria-label="زمان‌بندی و تاریخ مراسم">
-        <div class="schedule__col schedule__col--details">
-          <div class="schedule__detail">
-            <span class="schedule__label">عقد</span>
-            <span class="schedule__time">۱۷&nbsp;-&nbsp;۱۹</span>
-          </div>
-          <div class="schedule__detail">
-            <span class="schedule__label">شام</span>
-            <span class="schedule__time">۱۹&nbsp;-&nbsp;۲۳</span>
-          </div>
-        </div>
-        <div class="schedule__col schedule__col--date">
-          <span class="schedule__day">شنبه</span>
-          <span class="schedule__daymonth">۳۱ مرداد</span>
-        </div>
-        <div class="schedule__col schedule__col--year">
-          <span class="schedule__year">۱۴۰۵</span>
-        </div>
-      </section>
+  <!-- Column 2: Day, Month, and Year Stacked vertically -->
+  <div class="schedule__col schedule__col--date">
+    <span class="schedule__day">شنبه</span>
+    <span class="schedule__daymonth">۳۱ مرداد</span>
+    <span class="schedule__year">۱۴۰۵</span>
+  </div>
+
+</div>
 
       <section class="location-block reveal" data-reveal="5">
         <a class="location-btn"
@@ -111,7 +116,7 @@
             </svg>
           </span>
           <span class="location-btn__text">
-            <strong>مکان برگزاری مراسم-تهران، هتل گراند رشیدیه</strong>
+            <strong>مکان برگزاری مراسم</strong>
             <small>برای مسیریابی ضربه بزنید</small>
           </span>
           <span class="location-btn__arrow" aria-hidden="true">
